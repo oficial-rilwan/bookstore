@@ -1,0 +1,71 @@
+.all-books-dash {
+  margin-bottom: 3rem;
+}
+.dash-post-wrapper {
+  padding: 0.5rem;
+  transition: 0.5s;
+  border-radius: 40px;
+}
+.dash-post-wrapper:hover {
+  background-color: #f56c02;
+  color: #fff;
+  cursor: pointer;
+}
+.dash-post-info img {
+  width: 40px;
+  height: 40px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+.dash-post-id {
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+.dash-post-id p {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 1;
+  -webkit-box-orient: vertical;
+  margin-bottom: 0;
+}
+.dash-post-info {
+  position: relative;
+  display: flex;
+  align-items: center;
+  height: 100%;
+}
+.dash-post-info p {
+  position: absolute;
+  top: 8px;
+  left: 50px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 1;
+  -webkit-box-orient: vertical;
+  margin-bottom: 0;
+}
+.dash-post-actions {
+  display: flex;
+  column-gap: 0.5rem;
+}
+.edit-post,
+.delete-post {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.edit-post {
+  background-color: #0066aa;
+  color: #fff;
+}
+.delete-post {
+  background-color: #ff1d1d;
+  color: #fff;
+}

@@ -1,0 +1,128 @@
+/* .desktop-cart {
+  box-shadow: 0 1px 1px hsl(0deg 0% 0% / 0.075),
+    0 2px 2px hsl(0deg 0% 0% / 0.075), 0 4px 4px hsl(0deg 0% 0% / 0.075),
+    0 8px 8px hsl(0deg 0% 0% / 0.075), 0 16px 16px hsl(0deg 0% 0% / 0.075);
+} */
+.cart-row {
+  margin: 0;
+}
+.total-card {
+  border-radius: 5px;
+  padding: 2rem;
+}
+
+.cart-price-change {
+  display: flex;
+  justify-content: flex-end;
+}
+.cart-page-icon {
+  margin-right: 0.5rem;
+}
+
+.remove-item,
+.add-to-wishlist,
+.check-out-button {
+  padding: 0.8rem 1.5rem;
+  border-radius: 5px;
+  outline: none;
+  border: none;
+  font-size: 12px;
+  font-weight: 500;
+}
+.remove-item,
+.add-to-wishlist {
+  background-color: transparent;
+  padding: 0;
+}
+.quantity {
+  text-align: right;
+}
+.check-out-button {
+  color: #fff;
+  background-color: #f56c02;
+  display: block;
+  width: 100%;
+  border-radius: 40px;
+}
+
+.book-title {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+}
+@media screen and (max-width: 1023px) {
+  .cart {
+    display: none;
+  }
+}
+
+/* Mobile-cart */
+.cart-row {
+  background-color: #fafafa;
+  border-radius: 5px;
+  margin-bottom: 1rem;
+}
+.cart-content {
+  padding-left: 0 !important;
+}
+.cart-content .book-title {
+  font-size: 1rem;
+  font-weight: 600;
+}
+
+h4 {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+}
+.secondary-text {
+  font-size: 14px;
+  color: #777;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 1;
+  -webkit-box-orient: vertical;
+}
+.price-container {
+  margin-top: 0.5rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.qty-btn-group {
+  display: flex;
+  justify-content: center;
+  background-color: #fff;
+  padding: 0.25rem 0.5rem;
+  width: 80px;
+  align-items: center;
+  font-weight: 500;
+  border-radius: 5px;
+}
+.qty-btn-group span {
+  padding: 0 0.5rem;
+  font-weight: 500;
+}
+.mobile-cart-increment {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: none;
+  outline: none;
+  background-color: transparent;
+  font-weight: 700;
+}
+.mobile-cart .total-card {
+  padding: 0;
+}
+
+@media screen and (min-width: 1024px) {
+  .mobile-cart {
+    display: none;
+  }
+}

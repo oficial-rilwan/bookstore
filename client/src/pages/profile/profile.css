@@ -1,0 +1,38 @@
+.user-profile-image {
+  width: 70px;
+  height: 70px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+.profile-image-container {
+  display: flex;
+  column-gap: 0.5rem;
+  align-items: center;
+  overflow: hidden;
+}
+.logout-button {
+  background-color: red;
+}
+.logout-button:hover {
+  background-color: red;
+}
+.profile-title,
+.user-email {
+  margin-bottom: 0;
+}
+.profile-image-container .user-email {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 1;
+  -webkit-box-orient: vertical;
+}
+.profile-header {
+  margin-bottom: 1.5rem;
+}
+
+@media screen and (max-width: 1023px) {
+  .profile-banner {
+    display: none;
+  }
+}

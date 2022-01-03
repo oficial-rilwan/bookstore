@@ -1,0 +1,35 @@
+.categories-list {
+  list-style: none;
+  padding: 0;
+}
+.categories-list li {
+  cursor: pointer;
+  padding: 0.5rem;
+  border-radius: 40px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 1;
+  -webkit-box-orient: vertical;
+}
+.categories-list li:hover {
+  background-color: #eee;
+}
+
+@media screen and (max-width: 1200px) {
+  .categories-list {
+    display: flex;
+    column-gap: 1rem;
+    flex-wrap: wrap;
+    margin-bottom: 2rem;
+  }
+  .categories-col ul li {
+    margin-bottom: 0;
+    padding: 0;
+    font-size: 14px;
+  }
+  .categories-col ul li:hover {
+    text-decoration: underline;
+    background-color: transparent;
+  }
+}

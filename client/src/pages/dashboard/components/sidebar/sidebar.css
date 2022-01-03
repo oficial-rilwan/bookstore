@@ -1,0 +1,44 @@
+.dashboard-sidebar {
+  border: 1px solid #ccc;
+  border-radius: 7px;
+  padding: 1rem;
+  background: #f56c02;
+  color: #fff;
+}
+.dash-list-group p {
+  color: #fff;
+  font-weight: 500;
+  font-size: 1.3rem;
+}
+.dash-list-group ul {
+  padding-left: 0;
+  list-style: none;
+}
+.dash-list-group ul li {
+  font-weight: 500;
+
+  padding: 0.5rem 1rem;
+  transition: 0.5s ease;
+  border-radius: 40px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+}
+.dash-list-group ul li:hover {
+  background-color: #eee;
+  color: #f56c02;
+}
+.dash-list-group ul li span {
+  margin-right: 0.25rem;
+}
+.dash-icon {
+  font-size: 22px;
+  margin-top: -4px;
+  padding: 0.15rem;
+}
+.post-icon,
+.analytics {
+  margin-top: -4px;
+  font-size: 22px;
+  padding: 0.25rem;
+}

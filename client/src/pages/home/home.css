@@ -1,0 +1,24 @@
+.home-row {
+  margin-top: 5rem;
+  margin-bottom: 5rem;
+  align-items: center;
+}
+.hero-image img {
+  object-fit: cover;
+}
+@media screen and (max-width: 1023px) {
+  .home-row {
+    flex-direction: column-reverse;
+    margin-top: 0;
+    margin-bottom: 2rem;
+    align-items: flex-start;
+  }
+  .hero-content .cta {
+    font-size: 2rem;
+  }
+  .hero-image img {
+    height: 300px;
+    object-fit: contain;
+    margin-bottom: 1rem;
+  }
+}
